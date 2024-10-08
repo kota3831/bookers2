@@ -1,0 +1,39 @@
+<p id="notice"></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-5 px-5 px-sm-0 mx-auto">
+          <h2>User info</h2>
+            <% if @user.errors.any? %>
+              <strong>
+                <%= @user.errors.count %> errors prohibited this obj from being saved:
+              </strong>
+                <ul>
+                  <% @user.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+            <% end %>
+                </ul>
+              <% end %>
+
+            <%= form_with model: @user, url: user_path(@user.id), method: :patch do |f| %>
+
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input class="form-control name" type="text" name="user[name]" id="user_name", value="<%= @user.name %>">
+              </div>
+
+              <div class="form-group">
+                <label for="image">Image</label>
+                <p><%= f.file_field :profile_image, placeholder: "画像", accept: "image/*" %></p>
+              </div>
+
+              <div class="form-group">
+                <label for="user_introduction">Introduction</label>
+                <textarea class="form-control user_introduction" name="user[introduction]" id="user_introduction"><%= @user.introduction %></textarea>
+              </div>
+
+              <p><%= f.submit "Update User", class: "btn btn-secondary" %></p>
+
+            <% end %>
+        </div>
+      </div>
+    </div>

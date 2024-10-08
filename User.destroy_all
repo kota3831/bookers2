@@ -1,0 +1,8 @@
+=> [[32m#<User id: 1, email: "t@a", name: "TA", introduction: nil, created_at: "2024-09-25 08:03:09.255736000 +0000", updated_at: "2024-09-25 10:34:06.987245000 +0000">[0m,
+ [32m#<User id: 2, email: "m@y", name: nil, introduction: nil, created_at: "2024-09-25 08:36:59.430901000 +0000", updated_at: "2024-09-25 08:36:59.430901000 +0000">[0m,
+ [32m#<User id: 3, email: "m@k", name: nil, introduction: nil, created_at: "2024-09-25 08:49:34.103997000 +0000", updated_at: "2024-09-25 08:49:34.103997000 +0000">[0m,
+ [32m#<User id: 4, email: "k@s", name: nil, introduction: nil, created_at: "2024-09-25 08:54:29.797609000 +0000", updated_at: "2024-09-25 08:54:29.797609000 +0000">[0m,
+ [32m#<User id: 5, email: "t@u", name: nil, introduction: nil, created_at: "2024-09-25 09:22:48.790363000 +0000", updated_at: "2024-09-25 09:22:48.790363000 +0000">[0m,
+ [32m#<User id: 6, email: "r@t", name: nil, introduction: nil, created_at: "2024-09-25 09:50:52.716913000 +0000", updated_at: "2024-09-25 09:50:52.716913000 +0000">[0m,
+ [32m#<User id: 7, email: "y@u", name: nil, introduction: nil, created_at: "2024-09-25 09:55:46.512423000 +0000", updated_at: "2024-09-25 09:55:46.512423000 +0000">[0m,
+ [32m#<User id: 8, email: "w@s", name: nil, introduction: nil, created_at: "2024-09-25 10:25:23.048642000 +0000", updated_at: "2024-09-25 10:25:23.048642000 +0000">[0m]
